@@ -1,4 +1,4 @@
-package com.koreaIT.demo.util;
+package com.koreaIT.demo.dao;
 
 public class Util {
 	public static boolean empty(String str) {
