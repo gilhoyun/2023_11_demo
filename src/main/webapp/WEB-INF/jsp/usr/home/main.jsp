@@ -14,6 +14,7 @@
 			<div>
 				안녕하세요
 			</div>
+		<a href="/usr/member/login">로그인</a>
 		</div>
 	</section>
 	
