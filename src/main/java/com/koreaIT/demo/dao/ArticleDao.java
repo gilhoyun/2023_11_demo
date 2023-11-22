@@ -83,14 +83,7 @@ public interface ArticleDao {
 				SET hitCount = hitCount + 1
 				WHERE id = #{id}
 			""")
-	public int increaseHitCount(int id);
-	
-	@Select("""
-			SELECT hitCount
-				FROM article
-				WHERE id = #{id}
-			""")
-	public int getArticleHitCount(int id);
+	public void increaseHitCount(int id);
 	
 	@Select("""
 			SELECT A.*, M.name AS writerName
